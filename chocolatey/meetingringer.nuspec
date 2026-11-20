@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>meetingringer</id>
+    <version>0.1.29</version>
+    <packageSourceUrl>https://github.com/meetingringer/meetingringer/tree/main/chocolatey</packageSourceUrl>
+    <owners>boaz</owners>
+    <title>MeetingRinger</title>
+    <authors>Meeting Ringer</authors>
+    <projectUrl>https://meetingringer.com</projectUrl>
+    <iconUrl>https://meetingringer.com/favicon-256x256.png</iconUrl>
+    <copyright>Copyright (c) 2026 Meeting Ringer</copyright>
+    <licenseUrl>https://meetingringer.com/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://meetingringer.com/getting-started/</docsUrl>
+    <tags>meetings calendar reminder alarm google-calendar zoom teams google-meet productivity trial</tags>
+    <summary>Rings like an incoming phone call before your Google Calendar meetings.</summary>
+    <description>MeetingRinger rings like an incoming phone call before your meetings, with a persistent banner you cannot miss. Syncs Google Calendar. $1/month ($12/year) with a 14-day free trial.</description>
+    <releaseNotes>https://github.com/meetingringer/meetingringer/releases/tag/v0.1.29</releaseNotes>
+    <dependencies>
+      <dependency id="webview2-runtime" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
